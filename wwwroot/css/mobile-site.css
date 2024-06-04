@@ -1,0 +1,163 @@
+﻿html {
+    font-size: 14px;
+    padding-top: 80px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/*------------------New Custom UI------------------*/
+.bg-light-yellow {
+    background-color: #FFCC00; /* Lichtgeel */
+}
+
+.nav-link {
+    color: dimgray !important; /* Initial color */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+    .nav-link:hover {
+        color: black !important; /* Color on hover */
+    }
+
+    .nav-link.active {
+        color: black !important; /* Force color for active item */
+    }
+/*------------------New Custom UI------------------*/
+
+.mobile h1 {
+    font-size: 33px;
+}
+
+.mobile p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.mobile card input {
+    width: auto;
+}
+
+.mobile label {
+    font-size: 19px;
+}
+
+.mobile select {
+    font-size: 30px;
+    height: auto;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+@media (max-width: 767px) {
+    .time-picker {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+
+    .school-picker {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        /* ... */
+    }
+}
+/* Hide active item name by default */
+#active-item-name {
+    display: none;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 1rem; /* Same padding as navbar-brand for alignment */
+}
+/* Show active item name only on extra-small to small devices */
+@media (max-width: 767.98px) { /* Adjust this breakpoint as needed */
+    #active-item-name {
+        display: block;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .col-sm-6 {
+        flex: 0 0 28%;
+        max-width: 28%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 8%;
+        max-width: 8%
+    }
+}
+
+.row.roostering {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.prognoseinfo.roostering {
+    flex: 0 0 155px;
+    max-width: 155px;
+}
+
+.col.roostering {
+    flex-grow: 1;
+}
+
+.rooster-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-part {
+    display: flex;
+}
+
+rooster-weekheader {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[name="startTijd"],
+input[name="endTijd"] {
+    width: 150px;
+}
+
+.forms-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.form-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card prognoseinfo {
+    width: 155px;
+}
+
+.btn-extra-lg {
+    padding: 1000px 20%;
+    font-size: 1.5rem;
+}

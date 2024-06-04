@@ -1,0 +1,132 @@
+html {
+    font-size: 14px;
+    padding-top: 90px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/*.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/*------------------New Custom UI------------------*/
+.bg-light-yellow {
+    background-color: #FFCC00; /* Lichtgeel */
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Apply shadow */
+}
+
+.nav-link {
+    color: dimgray !important; /* Initial color */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.nav-link:hover {
+    color: black !important; /* Color on hover */
+}
+
+.nav-link.active {
+    color: black !important; /* Force color for active item */
+}
+/*------------------New Custom UI------------------*/
+
+/* Hide active item name by default */
+#active-item-name {
+    display: none;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 1rem; /* Same padding as navbar-brand for alignment */
+}
+/* Show active item name only on extra-small to small devices */
+@media (max-width: 767.98px) { /* Adjust this breakpoint as needed */
+    #active-item-name {
+        display: block;
+    }
+}
+@media (max-width: 767.98px) {
+    .col-sm-6 {
+        flex: 0 0 28%;
+        max-width: 28%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 8%;
+        max-width: 8%
+    }
+}
+
+.row.roostering {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.prognoseinfo.roostering {
+    flex: 0 0 155px;
+    max-width: 155px;
+}
+
+.col.roostering {
+    flex-grow: 1;
+}
+
+.rooster-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-part {
+    display: flex;
+}
+
+rooster-weekheader {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[name="startTijd"],
+input[name="endTijd"] {
+    width: 150px;
+}
+
+.forms-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.form-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card prognoseinfo {
+    width: 155px;
+}
