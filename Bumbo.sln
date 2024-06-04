@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bumbo", "Bumbo\Bumbo.csproj", "{8F1626B2-8A6B-4C7F-A19B-77CB0B963040}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomSessionAuthorizationAttribute", "CustomSessionAuthorizationAttribute\CustomSessionAuthorizationAttribute.csproj", "{6C440DF0-A9FE-411E-8F1A-573DB7BAA782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAOCheckTest", "CAOCheckTest\CAOCheckTest.csproj", "{F7567153-3CC0-493A-B457-24FE92DF0D2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F1626B2-8A6B-4C7F-A19B-77CB0B963040} = {8F1626B2-8A6B-4C7F-A19B-77CB0B963040}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F1626B2-8A6B-4C7F-A19B-77CB0B963040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1626B2-8A6B-4C7F-A19B-77CB0B963040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1626B2-8A6B-4C7F-A19B-77CB0B963040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1626B2-8A6B-4C7F-A19B-77CB0B963040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C440DF0-A9FE-411E-8F1A-573DB7BAA782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C440DF0-A9FE-411E-8F1A-573DB7BAA782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C440DF0-A9FE-411E-8F1A-573DB7BAA782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C440DF0-A9FE-411E-8F1A-573DB7BAA782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7567153-3CC0-493A-B457-24FE92DF0D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7567153-3CC0-493A-B457-24FE92DF0D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7567153-3CC0-493A-B457-24FE92DF0D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7567153-3CC0-493A-B457-24FE92DF0D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFD488D2-0992-4246-A3F0-D46A1699CF0D}
+	EndGlobalSection
+EndGlobal
